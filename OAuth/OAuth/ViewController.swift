@@ -7,9 +7,18 @@
 //
 
 import UIKit
+// 定义全局常量
+let WB_Login_Successed_Notification = "WB_Login_Successed_Notification"
 
 class ViewController: UIViewController {
 
+    
+    let WB_API_URL_String       = "https://api.weibo.com"
+    let WB_Redirect_URL_String  = "http://www.baidu.com"
+    let WB_Client_ID            = "4266907357"
+    let WB_Client_Secret        = "a3954639f9a74db9d7d2861f4fb94fda"
+    let WB_Grant_Type           = "authorization_code"
+    
     @IBOutlet weak var webView: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
